@@ -63,7 +63,7 @@ function knowWhy(value) {
   }
 }
 add(211);
-error - retrun if , function execution name is wrong
+//error - retrun if , function execution name is wrong
 ```
 
 7. What is the output or error of the code below.
@@ -77,7 +77,7 @@ function knowWhy(value) {
   }
 }
 add(21);
-error = return if, function execution name is wrong
+//error = return if, function execution name is wrong
 ```
 
 8. What is the output or error of the code below.
