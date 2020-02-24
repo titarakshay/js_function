@@ -591,8 +591,7 @@ score();
       alert("F");
       break;
     default:
-        alert("Enter valid score")
-      
+        alert("Enter valid score")   
   }
 }
  alert(score());
