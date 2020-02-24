@@ -524,53 +524,76 @@ alert(max());
  * @param {number} total maximum possible score
  * @return {string} the score represented as a letter grade
  */ // function decleration
- function score(a=0){
-  if(a>=90 && a<=100){
-  return "A";
-  }else if(a>=80 && a<=89){
-  return "B";
-  }else if(a>=70 && a<=79){
-  return "c";
-  }else if(a>=60 && a<=69){
-  return "D";
-  }else if(a>=0 && a<=59){
-  return "F";
-  }else {
-  return "Enter valid Score";
+ function score(a= 0) {
+  switch(true){
+    case(a>= 90 && a<= 100) :
+      alert("A");
+      break;
+    case(a>= 80 && a<= 89) :
+      alert("B");
+      break;
+    case(a>= 70 && a<= 79) :
+      alert("C");
+      break;
+    case(a>= 60 && a<= 69) :
+      alert("D");
+      break;
+    case(a>= 0 && a<= 59) :
+      alert("F");
+      break;
+    default:
+       alert("Enter valid score")
+     
   }
- }
- alert(score());
+}
+score();
  // function expression
- let score=function (a=0){
-  if(a>=90 && a<=100){
-  return "A";
-  }else if(a>=80 && a<=89){
-  return "B";
-  }else if(a>=70 && a<=79){
-  return "c";
-  }else if(a>=60 && a<=69){
-  return "D";
-  }else if(a>=0 && a<=59){
-  return "F";
-  }else {
-  return "Enter valid Score";
+ let score =function(a= 0) {
+  switch(true){
+    case(a>= 90 && a<= 100) :
+      alert("A");
+      break;
+    case(a>= 80 && a<= 89) :
+      alert("B");
+      break;
+    case(a>= 70 && a<= 79) :
+      alert("C");
+      break;
+    case(a>= 60 && a<= 69) :
+      alert("D");
+      break;
+    case(a>= 0 && a<= 59) :
+      alert("F");
+      break;
+    default:
+       alert("Enter valid score")
+     
   }
- }
- alert(score());
+}
+score();
+ 
  // arrow function 
- let score = a =>{
-  if (a>=90 && a<=100)
-    return "A";
-  else if(a>=80 && a<=89)
-    return "B";
-  else if(a>=70 && a<=79)
-    return "c";
-  else if(a>=60 && a<=69)
-    return "D";
-  else if(a>=0 && a<=59)
-    return "F";
-  else 
-    return "Enter valid Score";
+ let score = a => {
+  switch(true){
+    case(a>= 90 && a<= 100) :
+      alert("A");
+      break;
+    case(a>= 80 && a<= 89) :
+      alert("B");
+      break;
+    case(a>= 70 && a<= 79) :
+      alert("C");
+      break;
+    case(a>= 60 && a<= 69) :
+      alert("D");
+      break;
+    case(a>= 0 && a<= 59) :
+      alert("F");
+      break;
+    default:
+        alert("Enter valid score")
+      
+  }
 }
  alert(score());
 
